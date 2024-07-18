@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AleConLeAli - Pronuncia flashcard - In cucina</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        td.word-column { width: 20%; }
+        img { width: 128px; height: 128px; display: block; margin: 0 auto; }
+        h1 { text-align: center; }
+        .play-button {
+            cursor: pointer;
+            font-size: 24px;
+            color: #0000FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pronuncia Flashcard Montessori - In cucina</h1>
+    <table>
+        <tr><th>Immagine</th><th>Italiano</th><th>Inglese</th></tr>
+        <tr><td><img src='22.png' alt='22'></td><td class='word-column'>forchetta<br><span class='play-button' onclick="playAudio('it-audio-forchetta')">&#9658;</span><audio id='it-audio-forchetta' src='it-forchetta.mp3' style='display:none;'></audio></td><td class='word-column'>fork<br><span class='play-button' onclick="playAudio('en-audio-fork')">&#9658;</span><audio id='en-audio-fork' src='en-fork.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='23.png' alt='23'></td><td class='word-column'>coltello<br><span class='play-button' onclick="playAudio('it-audio-coltello')">&#9658;</span><audio id='it-audio-coltello' src='it-coltello.mp3' style='display:none;'></audio></td><td class='word-column'>knife<br><span class='play-button' onclick="playAudio('en-audio-knife')">&#9658;</span><audio id='en-audio-knife' src='en-knife.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='24.png' alt='24'></td><td class='word-column'>cucchiaio<br><span class='play-button' onclick="playAudio('it-audio-cucchiaio')">&#9658;</span><audio id='it-audio-cucchiaio' src='it-cucchiaio.mp3' style='display:none;'></audio></td><td class='word-column'>spoon<br><span class='play-button' onclick="playAudio('en-audio-spoon')">&#9658;</span><audio id='en-audio-spoon' src='en-spoon.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='25.png' alt='25'></td><td class='word-column'>microonde<br><span class='play-button' onclick="playAudio('it-audio-microonde')">&#9658;</span><audio id='it-audio-microonde' src='it-microonde.mp3' style='display:none;'></audio></td><td class='word-column'>microwave<br><span class='play-button' onclick="playAudio('en-audio-microwave')">&#9658;</span><audio id='en-audio-microwave' src='en-microwave.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='26.png' alt='26'></td><td class='word-column'>frullatore<br><span class='play-button' onclick="playAudio('it-audio-frullatore')">&#9658;</span><audio id='it-audio-frullatore' src='it-frullatore.mp3' style='display:none;'></audio></td><td class='word-column'>blender<br><span class='play-button' onclick="playAudio('en-audio-blender')">&#9658;</span><audio id='en-audio-blender' src='en-blender.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='27.png' alt='27'></td><td class='word-column'>padella<br><span class='play-button' onclick="playAudio('it-audio-padella')">&#9658;</span><audio id='it-audio-padella' src='it-padella.mp3' style='display:none;'></audio></td><td class='word-column'>frying pan<br><span class='play-button' onclick="playAudio('en-audio-frying_pan')">&#9658;</span><audio id='en-audio-frying_pan' src='en-frying_pan.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='28.png' alt='28'></td><td class='word-column'>bicchiere<br><span class='play-button' onclick="playAudio('it-audio-bicchiere')">&#9658;</span><audio id='it-audio-bicchiere' src='it-bicchiere.mp3' style='display:none;'></audio></td><td class='word-column'>glass<br><span class='play-button' onclick="playAudio('en-audio-glass')">&#9658;</span><audio id='en-audio-glass' src='en-glass.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='29.png' alt='29'></td><td class='word-column'>tazza<br><span class='play-button' onclick="playAudio('it-audio-tazza')">&#9658;</span><audio id='it-audio-tazza' src='it-tazza.mp3' style='display:none;'></audio></td><td class='word-column'>mug<br><span class='play-button' onclick="playAudio('en-audio-mug')">&#9658;</span><audio id='en-audio-mug' src='en-mug.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='30.png' alt='30'></td><td class='word-column'>pentola<br><span class='play-button' onclick="playAudio('it-audio-pentola')">&#9658;</span><audio id='it-audio-pentola' src='it-pentola.mp3' style='display:none;'></audio></td><td class='word-column'>cooking pot<br><span class='play-button' onclick="playAudio('en-audio-cooking_pot')">&#9658;</span><audio id='en-audio-cooking_pot' src='en-cooking_pot.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='31.png' alt='31'></td><td class='word-column'>sedia<br><span class='play-button' onclick="playAudio('it-audio-sedia')">&#9658;</span><audio id='it-audio-sedia' src='it-sedia.mp3' style='display:none;'></audio></td><td class='word-column'>chair<br><span class='play-button' onclick="playAudio('en-audio-chair')">&#9658;</span><audio id='en-audio-chair' src='en-chair.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='32.png' alt='32'></td><td class='word-column'>tavolo<br><span class='play-button' onclick="playAudio('it-audio-tavolo')">&#9658;</span><audio id='it-audio-tavolo' src='it-tavolo.mp3' style='display:none;'></audio></td><td class='word-column'>table<br><span class='play-button' onclick="playAudio('en-audio-table')">&#9658;</span><audio id='en-audio-table' src='en-table.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='33.png' alt='33'></td><td class='word-column'>tagliere<br><span class='play-button' onclick="playAudio('it-audio-tagliere')">&#9658;</span><audio id='it-audio-tagliere' src='it-tagliere.mp3' style='display:none;'></audio></td><td class='word-column'>cutting board<br><span class='play-button' onclick="playAudio('en-audio-cutting_board')">&#9658;</span><audio id='en-audio-cutting_board' src='en-cutting_board.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='34.png' alt='34'></td><td class='word-column'>piatto<br><span class='play-button' onclick="playAudio('it-audio-piatto')">&#9658;</span><audio id='it-audio-piatto' src='it-piatto.mp3' style='display:none;'></audio></td><td class='word-column'>plate<br><span class='play-button' onclick="playAudio('en-audio-plate')">&#9658;</span><audio id='en-audio-plate' src='en-plate.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='35.png' alt='35'></td><td class='word-column'>spugna<br><span class='play-button' onclick="playAudio('it-audio-spugna')">&#9658;</span><audio id='it-audio-spugna' src='it-spugna.mp3' style='display:none;'></audio></td><td class='word-column'>sponge<br><span class='play-button' onclick="playAudio('en-audio-sponge')">&#9658;</span><audio id='en-audio-sponge' src='en-sponge.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='36.png' alt='36'></td><td class='word-column'>forno<br><span class='play-button' onclick="playAudio('it-audio-forno')">&#9658;</span><audio id='it-audio-forno' src='it-forno.mp3' style='display:none;'></audio></td><td class='word-column'>oven<br><span class='play-button' onclick="playAudio('en-audio-oven')">&#9658;</span><audio id='en-audio-oven' src='en-oven.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='37.png' alt='37'></td><td class='word-column'>frigorifero<br><span class='play-button' onclick="playAudio('it-audio-frigorifero')">&#9658;</span><audio id='it-audio-frigorifero' src='it-frigorifero.mp3' style='display:none;'></audio></td><td class='word-column'>fridge<br><span class='play-button' onclick="playAudio('en-audio-fridge')">&#9658;</span><audio id='en-audio-fridge' src='en-fridge.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='38.png' alt='38'></td><td class='word-column'>caffettiera<br><span class='play-button' onclick="playAudio('it-audio-caffettiera')">&#9658;</span><audio id='it-audio-caffettiera' src='it-caffettiera.mp3' style='display:none;'></audio></td><td class='word-column'>coffee maker<br><span class='play-button' onclick="playAudio('en-audio-coffee_maker')">&#9658;</span><audio id='en-audio-coffee_maker' src='en-coffee_maker.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='39.png' alt='39'></td><td class='word-column'>asciugamano<br><span class='play-button' onclick="playAudio('it-audio-asciugamano')">&#9658;</span><audio id='it-audio-asciugamano' src='it-asciugamano.mp3' style='display:none;'></audio></td><td class='word-column'>towel<br><span class='play-button' onclick="playAudio('en-audio-towel')">&#9658;</span><audio id='en-audio-towel' src='en-towel.mp3' style='display:none;'></audio></td></tr>
+    </table>
+    <script>
+        function playAudio(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+        }
+    </script>
+</body>
+</html>

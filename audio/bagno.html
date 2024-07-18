@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AleConLeAli - Pronuncia flashcard - In bagno</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        td.word-column { width: 20%; }
+        img { width: 128px; height: 128px; display: block; margin: 0 auto; }
+        h1 { text-align: center; }
+        .play-button {
+            cursor: pointer;
+            font-size: 24px;
+            color: #0000FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pronuncia Flashcard Montessori - In bagno</h1>
+    <table>
+        <tr><th>Immagine</th><th>Italiano</th><th>Inglese</th></tr>
+        <tr><td><img src='40.png' alt='40'></td><td class='word-column'>spazzolino<br><span class='play-button' onclick="playAudio('it-audio-spazzolino')">&#9658;</span><audio id='it-audio-spazzolino' src='it-spazzolino.mp3' style='display:none;'></audio></td><td class='word-column'>toothbrush<br><span class='play-button' onclick="playAudio('en-audio-toothbrush')">&#9658;</span><audio id='en-audio-toothbrush' src='en-toothbrush.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='41.png' alt='41'></td><td class='word-column'>dentifricio<br><span class='play-button' onclick="playAudio('it-audio-dentifricio')">&#9658;</span><audio id='it-audio-dentifricio' src='it-dentifricio.mp3' style='display:none;'></audio></td><td class='word-column'>toothpaste<br><span class='play-button' onclick="playAudio('en-audio-toothpaste')">&#9658;</span><audio id='en-audio-toothpaste' src='en-toothpaste.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='42.png' alt='42'></td><td class='word-column'>lavandino<br><span class='play-button' onclick="playAudio('it-audio-lavandino')">&#9658;</span><audio id='it-audio-lavandino' src='it-lavandino.mp3' style='display:none;'></audio></td><td class='word-column'>sink<br><span class='play-button' onclick="playAudio('en-audio-sink')">&#9658;</span><audio id='en-audio-sink' src='en-sink.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='43.png' alt='43'></td><td class='word-column'>sapone<br><span class='play-button' onclick="playAudio('it-audio-sapone')">&#9658;</span><audio id='it-audio-sapone' src='it-sapone.mp3' style='display:none;'></audio></td><td class='word-column'>soap<br><span class='play-button' onclick="playAudio('en-audio-soap')">&#9658;</span><audio id='en-audio-soap' src='en-soap.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='44.png' alt='44'></td><td class='word-column'>vasca da bagno<br><span class='play-button' onclick="playAudio('it-audio-vasca_da_bagno')">&#9658;</span><audio id='it-audio-vasca_da_bagno' src='it-vasca_da_bagno.mp3' style='display:none;'></audio></td><td class='word-column'>bathtub<br><span class='play-button' onclick="playAudio('en-audio-bathtub')">&#9658;</span><audio id='en-audio-bathtub' src='en-bathtub.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='45.png' alt='45'></td><td class='word-column'>asciugacapelli<br><span class='play-button' onclick="playAudio('it-audio-asciugacapelli')">&#9658;</span><audio id='it-audio-asciugacapelli' src='it-asciugacapelli.mp3' style='display:none;'></audio></td><td class='word-column'>hair dryer<br><span class='play-button' onclick="playAudio('en-audio-hair_dryer')">&#9658;</span><audio id='en-audio-hair_dryer' src='en-hair_dryer.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='46.png' alt='46'></td><td class='word-column'>pettine<br><span class='play-button' onclick="playAudio('it-audio-pettine')">&#9658;</span><audio id='it-audio-pettine' src='it-pettine.mp3' style='display:none;'></audio></td><td class='word-column'>comb<br><span class='play-button' onclick="playAudio('en-audio-comb')">&#9658;</span><audio id='en-audio-comb' src='en-comb.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='47.png' alt='47'></td><td class='word-column'>spazzola<br><span class='play-button' onclick="playAudio('it-audio-spazzola')">&#9658;</span><audio id='it-audio-spazzola' src='it-spazzola.mp3' style='display:none;'></audio></td><td class='word-column'>hairbrush<br><span class='play-button' onclick="playAudio('en-audio-hairbrush')">&#9658;</span><audio id='en-audio-hairbrush' src='en-hairbrush.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='48.png' alt='48'></td><td class='word-column'>specchio<br><span class='play-button' onclick="playAudio('it-audio-specchio')">&#9658;</span><audio id='it-audio-specchio' src='it-specchio.mp3' style='display:none;'></audio></td><td class='word-column'>mirror<br><span class='play-button' onclick="playAudio('en-audio-mirror')">&#9658;</span><audio id='en-audio-mirror' src='en-mirror.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='49.png' alt='49'></td><td class='word-column'>gabinetto<br><span class='play-button' onclick="playAudio('it-audio-gabinetto')">&#9658;</span><audio id='it-audio-gabinetto' src='it-gabinetto.mp3' style='display:none;'></audio></td><td class='word-column'>toilet<br><span class='play-button' onclick="playAudio('en-audio-toilet')">&#9658;</span><audio id='en-audio-toilet' src='en-toilet.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='50.png' alt='50'></td><td class='word-column'>trucchi<br><span class='play-button' onclick="playAudio('it-audio-trucchi')">&#9658;</span><audio id='it-audio-trucchi' src='it-trucchi.mp3' style='display:none;'></audio></td><td class='word-column'>make-up<br><span class='play-button' onclick="playAudio('en-audio-make-up')">&#9658;</span><audio id='en-audio-make-up' src='en-make-up.mp3' style='display:none;'></audio></td></tr>
+        <tr><td><img src='51.png' alt='51'></td><td class='word-column'>rubinetto<br><span class='play-button' onclick="playAudio('it-audio-rubinetto')">&#9658;</span><audio id='it-audio-rubinetto' src='it-rubinetto.mp3' style='display:none;'></audio></td><td class='word-column'>faucet<br><span class='play-button' onclick="playAudio('en-audio-faucet')">&#9658;</span><audio id='en-audio-faucet' src='en-faucet.mp3' style='display:none;'></audio></td></tr>
+    </table>
+    <script>
+        function playAudio(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
