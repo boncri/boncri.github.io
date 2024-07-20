@@ -36,10 +36,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository except .sh files
-          path: |
-            .
-            !*.sh
+          # Upload entire repository
+          path: '.'
+          # Exclude .sh files from the upload
+          exclude:
+            - '**/*.sh'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
