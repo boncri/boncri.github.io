@@ -53,6 +53,13 @@ const etsy = [
     image: "https://i.etsystatic.com/57332064/r/il/3ec762/6598586660/il_1588xN.6598586660_1uvv.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1864966913"
   },
+  {
+    title: "Photo Scavenger Hunt at the American Museum of Natural History New York",
+    description: "Turn your visit to the American Museum of Natural History in New York into a unique and unforgettable adventure!",
+    price: "€ 3.42",
+    image: "https://i.etsystatic.com/57332064/r/il/f38a9c/6649500049/il_1588xN.6649500049_nbt2.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1851150528"
+  }
 ];
 
 // Funzione per generare il codice HTML per un libro
