@@ -170,34 +170,23 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="content-wrap col-12 col-md-10">
-                    <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1" style="font-family: Princess Sofia;">
-                        <strong>Ale con le Ali</strong>
-                    </h1>
+                    <a href="/">
+                        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1" style="font-family: Princess Sofia;">
+                            <strong>Ale con le Ali</strong>
+                        </h1>
+                    </a>
                     <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Scopri un mondo incantato di libri di attività per bambini, dove colorare, creare e immaginare si uniscono in avventure straordinarie!</p>
                 </div>
             </div>
             <div class="row">
-                    <div class="content-wrap col-12 col-md-10">
-                        <a href="amazon.html">
-                            <h2 id="bookGalleryTitle" class="book-gallery-title"><!-- Qui va il titolo --></h2>
-                        </a>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
                 <div class="content-wrap col-12 col-md-10">
-                    <a href="etsy.html">
-                        <h2 id="etsyGalleryTitle" class="book-gallery-title"><!-- Titolo Etsy --></h2>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="content-wrap col-12 col-md-10">
-                    <div class="row" id="allGallery">
-                        <!-- Qui verranno inseriti dinamicamente tutti i prodotti -->
+                    <h2 id="etsyGalleryTitle" class="book-gallery-title"><!-- Titolo Etsy --></h2>
+                    <div class="row" id="etsyGallery">
+                        <!-- Qui verranno inserite dinamicamente le inserzioni Etsy -->
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -217,7 +206,6 @@
     <script src="init.js"></script>
 
     <script>
-
     (function() {
         var animationInput = document.createElement('input');
         animationInput.setAttribute('name', 'animation');
