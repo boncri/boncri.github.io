@@ -59,6 +59,13 @@ const etsy = [
     price: "€ 3.42",
     image: "https://i.etsystatic.com/57332064/r/il/f38a9c/6649500049/il_1588xN.6649500049_nbt2.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1851150528"
+  },
+  {
+    title: "Italian Painting Photo Quiz",
+    description: "Dive into the world of Italian art with this fun and educational printable game!",
+    price: "€ 3.42",
+    image: "https://i.etsystatic.com/57332064/r/il/21154a/6651699139/il_1588xN.6651699139_4a57.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1851794388"
   }
 ];
 
@@ -133,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const etsyGallery = document.getElementById("etsyGallery");
   if (etsyGallery) {
-      const maxProducts = etsyGallery.getAttribute('data-maxProducts') || books.length;
+      const maxProducts = etsyGallery.getAttribute('data-maxProducts') || etsy.length;
       shuffleArray(etsy).slice(0, maxProducts).forEach(e => {
           etsyGallery.innerHTML += generateEtsyHTML(e);
       });
