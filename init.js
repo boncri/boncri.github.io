@@ -68,7 +68,7 @@ const etsy = [
     shopLink: "https://aleconleali.etsy.com/listing/1851794388"
   },
   {
-    title: "Capitolines Museums ItalyItalian Painting Photo Quiz",
+    title: "Capitolines Museums Italy",
     description: "An adventure through art and mysteries at the Capitoline Museums!",
     price: "€ 7.15",
     image: "https://i.etsystatic.com/57332064/r/il/5cf3d9/6656995517/il_1588xN.6656995517_hj2m.jpg",
