@@ -73,6 +73,13 @@ const etsy = [
     price: "€ 7.15",
     image: "https://i.etsystatic.com/57332064/r/il/5cf3d9/6656995517/il_1588xN.6656995517_hj2m.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1852904240"
+  },
+  {
+    title: "Photo Scavenger Hunt in Washington D.C.",
+    description: "Discover Washington D.C. in a unique and fun way with this photo scavenger hunt!",
+    price: "€ 3.05",
+    image: "https://i.etsystatic.com/57332064/r/il/67b560/6660577519/il_1588xN.6660577519_pd0r.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1867825149"
   }
 ];
 
