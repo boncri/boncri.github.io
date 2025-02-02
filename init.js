@@ -80,6 +80,13 @@ const etsy = [
     price: "€ 3.05",
     image: "https://i.etsystatic.com/57332064/r/il/67b560/6660577519/il_1588xN.6660577519_pd0r.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1867825149"
+  },
+  {
+    title: "Photo Scavenger Hunt in New York City",
+    description: "This interactive PDF will guide you through a series of creative photo challenges, perfect for tourists, families, and friends who want to explore New York City in an original way.",
+    price: "€ 3.05",
+    image: "https://i.etsystatic.com/57332064/r/il/a209a9/6613467938/il_1588xN.6613467938_ptg5.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1853840262"
   }
 ];
 
