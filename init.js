@@ -87,6 +87,13 @@ const etsy = [
     price: "€ 3.05",
     image: "https://i.etsystatic.com/57332064/r/il/a209a9/6613467938/il_1588xN.6613467938_ptg5.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1853840262"
+  },
+  {
+    title: "National Gallery of Art Washington DC",
+    description: "🎨 Explore the National Gallery of Art in Washington in a fun and interactive way! 🏛️",
+    price: "€ 7.15",
+    image: "https://i.etsystatic.com/57332064/r/il/5d4a3d/6664822563/il_1588xN.6664822563_tb1j.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1868682459"
   }
 ];
 
