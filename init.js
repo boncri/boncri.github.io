@@ -94,6 +94,13 @@ const etsy = [
     price: "€ 7.15",
     image: "https://i.etsystatic.com/57332064/r/il/5d4a3d/6664822563/il_1588xN.6664822563_tb1j.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1868682459"
+  },
+  {
+    title: "Photo Scavenger Hunt - Smithsonian National Air and Space Museum Washington DC",
+    description: "Turn your visit to the Smithsonian National Air and Space Museum in Washington DC, into an unforgettable adventure with this fun photo scavenger hunt!",
+    price: "€ 3.42",
+    image: "https://i.etsystatic.com/57332064/r/il/f2ad8f/6667853663/il_1588xN.6667853663_71wn.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1869280553"
   }
 ];
 
