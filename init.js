@@ -4,28 +4,28 @@ const books = [
       title: "Una domanda al giorno: 365 domande per bambine e ragazze",
       description: "Inizia un viaggio unico attraverso la scoperta di te con <i>Una domanda al giorno</i>, un diario dedicato a bambine e ragazze dagli 8 ai 12 anni.",
       price: "€ 11,99",
-      image: "https://m.media-amazon.com/images/I/61wNPypNiQL._SY522_.jpg",
+      image: "/assets/images/61wNPypNiQL._SY522_.jpg",
       shopLink: "https://amzn.eu/d/c5NA3ay"
   },
   {
       title: "Se fossi...: Dove la fantasia non conosce limiti.",
       description: "Tuffatevi tra domande, come 'Se fossi un animale, come sarebbe il tuo aspetto?' o 'Se potessi essere un personaggio storico, chi saresti?'.",
       price: "€ 9,99",
-      image: "https://m.media-amazon.com/images/I/41yvHI9SiiL._SY445_SX342_.jpg",
+      image: "/assets/images/41yvHI9SiiL._SY445_SX342_.jpg",
       shopLink: "https://amzn.eu/d/bHwWs5O"
   },
   {
       title: "Amore, risate e pasticci",
       description: "Una piccola raccolta super tenera e divertente di 20 frasi che raccontano la vita reale di mamma e figlio, accompagnati da altrettante bellissime immagini di mamme animali insieme ai loro cuccioli.",
       price: "€ 9,90",
-      image: "https://m.media-amazon.com/images/I/61hp6rat+tL._SY522_.jpg",
+      image: "/assets/images/61hp6rat+tL._SY522_.jpg",
       shopLink: "https://amzn.eu/d/8uXzc1S"
   },
   {
       title: "Nomenclature Montessori",
       description: "78 carte da ritagliare in italiano ed in inglese a tema scuola, cucina, cibo e in bagno, per arricchire il vocabolario. Immagini reali e parole in scritte in corsivo.",
       price: "€ 15,50",
-      image: "https://m.media-amazon.com/images/I/61ThesEx81L._SY522_.jpg",
+      image: "assets/images/61ThesEx81L._SY522_.jpg",
       shopLink: "https://amzn.eu/d/4mDUKRT"
   }
 ];
@@ -33,73 +33,73 @@ const books = [
 // Array di prodotti Etsy
 const etsy = [
   {
-      title: "MoMA Museum Of Modern Art Scavenger Hunt for kids",
-      description: "Planning a visit to the MoMA with your kids?<br>Turn your trip into an exciting and interactive adventure with this Scavenger Hunt!<br>At the end, your little art explorers will earn a special &amp;MoMA Art Seeker&amp; diploma! 🎨✨",
-      price: "€ 7.15",
-      image: "https://i.etsystatic.com/57332064/r/il/6cd7a1/6596043066/il_1588xN.6596043066_suv3.jpg",
-      shopLink: "https://aleconleali.etsy.com/listing/1850111484"
+    title: "MoMA Museum Of Modern Art Scavenger Hunt for kids",
+    description: "Planning a visit to the MoMA with your kids?<br>Turn your trip into an exciting and interactive adventure with this Scavenger Hunt!<br>At the end, your little art explorers will earn a special &amp;MoMA Art Seeker&amp; diploma! 🎨✨",
+    price: "€ 7.15",
+    image: "/assets/images/il_1588xN.6596043066_suv3.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1850111484"
   },
   {
     title: "Photo Scavenger Hunt at Madame Tussauds Wax Museum",
     description: "Turn your visit to Madame Tussauds into a unique adventure!",
     price: "€ 3.42",
-    image: "https://i.etsystatic.com/57332064/r/il/009102/6648174313/il_1588xN.6648174313_8j4q.jpg",
+    image: "/assets/images/il_1588xN.6648174313_8j4q.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1850980194"
   },
   {
     title: "Vatican Museums Scavenger Hunt for kids",
     description: "Planning a visit to the Vatican Museums in Rome with your kids?<br>Turn your trip into an exciting and interactive adventure with this Scavenger Hunt!<br>At the end, your little art explorers will earn a special &amp;Vatican Museums Art Seeker&amp; diploma! 🎨✨",
     price: "€ 7.15",
-    image: "https://i.etsystatic.com/57332064/r/il/3ec762/6598586660/il_1588xN.6598586660_1uvv.jpg",
+    image: "/assets/images/il_1588xN.6598586660_1uvv.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1864966913"
   },
   {
     title: "Photo Scavenger Hunt at the American Museum of Natural History New York",
     description: "Turn your visit to the American Museum of Natural History in New York into a unique and unforgettable adventure!",
     price: "€ 3.42",
-    image: "https://i.etsystatic.com/57332064/r/il/f38a9c/6649500049/il_1588xN.6649500049_nbt2.jpg",
+    image: "/assets/images/il_1588xN.6649500049_nbt2.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1851150528"
   },
   {
     title: "Italian Painting Photo Quiz",
     description: "Dive into the world of Italian art with this fun and educational printable game!",
     price: "€ 3.42",
-    image: "https://i.etsystatic.com/57332064/r/il/21154a/6651699139/il_1588xN.6651699139_4a57.jpg",
+    image: "/assets/images/il_1588xN.6651699139_4a57.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1851794388"
   },
   {
     title: "Capitolines Museums Italy",
     description: "An adventure through art and mysteries at the Capitoline Museums!",
     price: "€ 7.15",
-    image: "https://i.etsystatic.com/57332064/r/il/5cf3d9/6656995517/il_1588xN.6656995517_hj2m.jpg",
+    image: "/assets/images/il_1588xN.6656995517_hj2m.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1852904240"
   },
   {
     title: "Photo Scavenger Hunt in Washington D.C.",
     description: "Discover Washington D.C. in a unique and fun way with this photo scavenger hunt!",
     price: "€ 3.05",
-    image: "https://i.etsystatic.com/57332064/r/il/67b560/6660577519/il_1588xN.6660577519_pd0r.jpg",
+    image: "/assets/images/il_1588xN.6660577519_pd0r.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1867825149"
   },
   {
     title: "Photo Scavenger Hunt in New York City",
     description: "This interactive PDF will guide you through a series of creative photo challenges, perfect for tourists, families, and friends who want to explore New York City in an original way.",
     price: "€ 3.05",
-    image: "https://i.etsystatic.com/57332064/r/il/a209a9/6613467938/il_1588xN.6613467938_ptg5.jpg",
+    image: "/assets/images/il_1588xN.6613467938_ptg5.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1853840262"
   },
   {
     title: "National Gallery of Art Washington DC",
     description: "🎨 Explore the National Gallery of Art in Washington in a fun and interactive way! 🏛️",
     price: "€ 7.15",
-    image: "https://i.etsystatic.com/57332064/r/il/5d4a3d/6664822563/il_1588xN.6664822563_tb1j.jpg",
+    image: "/assets/images/il_1588xN.6664822563_tb1j.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1868682459"
   },
   {
     title: "Photo Scavenger Hunt - Smithsonian National Air and Space Museum Washington DC",
     description: "Turn your visit to the Smithsonian National Air and Space Museum in Washington DC, into an unforgettable adventure with this fun photo scavenger hunt!",
     price: "€ 3.42",
-    image: "https://i.etsystatic.com/57332064/r/il/f2ad8f/6667853663/il_1588xN.6667853663_71wn.jpg",
+    image: "/assets/images/il_1588xN.6667853663_71wn.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1869280553"
   }
 ];

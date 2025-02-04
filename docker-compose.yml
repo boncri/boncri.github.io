@@ -5,3 +5,9 @@ services:
       - "80:80"
     volumes:
       - .:/usr/share/nginx/html
+
+  resizer:
+    build: .
+    volumes:
+      - .:/app
+    entrypoint: /app/entrypoint_resize.sh
