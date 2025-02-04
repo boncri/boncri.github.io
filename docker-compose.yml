@@ -2,9 +2,9 @@ services:
   app:
     image: nginx:latest
     ports:
-      - "80:80"
+      - "8000:80"
     volumes:
-      - .:/usr/share/nginx/html
+      - ./docs:/usr/share/nginx/html
 
   resizer:
     build: .
