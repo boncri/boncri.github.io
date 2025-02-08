@@ -108,6 +108,13 @@ const etsy = [
     price: "€ 3.54",
     image: "/assets/images/il_1588xN.6623285372_der3.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1870032735"
+  },
+  {
+    title: "9 Cats Printable Bookmarks Set PNG PDF",
+    description: "Add a touch of simplicity and charm to your reading with these minimalist cat bookmarks.",
+    price: "€ 3.05",
+    image: "/assets/images/il_1588xN.6678423245_n7eh.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1857263688"
   }
 ];
 
