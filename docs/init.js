@@ -101,6 +101,13 @@ const etsy = [
     price: "€ 3.42",
     image: "/assets/images/il_1588xN.6667853663_71wn.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1869280553"
+  },
+  {
+    title: "Selfie scavenger hunt Valentine's day",
+    description: "Celebrate Valentine’s Day with this selfie scavenger hunt, perfect for friends, couples, parties, and groups!",
+    price: "€ 3.54",
+    image: "/assets/images/il_1588xN.6623285372_der3.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1870032735"
   }
 ];
 
