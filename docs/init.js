@@ -115,6 +115,20 @@ const etsy = [
     price: "€ 3.05",
     image: "/assets/images/il_1588xN.6678423245_n7eh.jpg",
     shopLink: "https://aleconleali.etsy.com/listing/1857263688"
+  },
+  {
+    title: "Orsay Museum Scavenger Hunt",
+    description: "This educational scavenger hunt inside the Musée d'Orsay guides children to discover the great masters of Impressionism and Post-Impressionism.",
+    price: "€ 7.15",
+    image: "/assets/images/il_1588xN.6657380460_gy0o.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1876776139"
+  },
+  {
+    title: "Louvre Museum Scavenger Hunt ",
+    description: "This scavenger hunt guides you through the highlights of the Italian, French, and Flemish Renaissance.",
+    price: "€ 7.15",
+    image: "/assets/images/il_1588xN.6688612789_bplr.jpg",
+    shopLink: "https://aleconleali.etsy.com/listing/1873502361"
   }
 ];
 
